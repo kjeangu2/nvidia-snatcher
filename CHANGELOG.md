@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.5.0](https://www.github.com/jef/nvidia-snatcher/compare/v1.4.0...v1.5.0) (2020-09-20)
+
+
+### Features
+
+* **notification:** discord integration ([#82](https://www.github.com/jef/nvidia-snatcher/issues/82)) ([a3fc07d](https://www.github.com/jef/nvidia-snatcher/commit/a3fc07daf0a3f33f18e03d4cfc13d3477a9c4fa0))
+* **store:** add adorama ([#104](https://www.github.com/jef/nvidia-snatcher/issues/104)) ([5b91065](https://www.github.com/jef/nvidia-snatcher/commit/5b910650430ad4806b22722efa9a013e72ea47e7))
+* load puppeteer faster, run stores in parallel ([#83](https://www.github.com/jef/nvidia-snatcher/issues/83)) ([d1a5aa1](https://www.github.com/jef/nvidia-snatcher/commit/d1a5aa1f02ff0a8f293b93e3c078b5943908a95b))
+* **store:** add asus ([#102](https://www.github.com/jef/nvidia-snatcher/issues/102)) ([a501cf7](https://www.github.com/jef/nvidia-snatcher/commit/a501cf703bb05f47af6240a4b16a3dc4dcf3baf5))
+
+
+### Bug Fixes
+
+* `rateLimitTimeout` not being defaulted ([#106](https://www.github.com/jef/nvidia-snatcher/issues/106)) ([28947be](https://www.github.com/jef/nvidia-snatcher/commit/28947be9bc8981d7a45a5d0e69c18d039fcd9ed3))
+* keep single `Store` from draining ([e819e46](https://www.github.com/jef/nvidia-snatcher/commit/e819e46116d4e0b067a59791094b5cfbd2d7cd45))
+* **notification:** wrong condition for sounds playing ([#91](https://www.github.com/jef/nvidia-snatcher/issues/91)) ([103d96d](https://www.github.com/jef/nvidia-snatcher/commit/103d96dc81d6fd097fcdbed5bdd7487d7d73bf6e))
+* **store:** false positives for nvidia. ([#85](https://www.github.com/jef/nvidia-snatcher/issues/85)) ([c65fa04](https://www.github.com/jef/nvidia-snatcher/commit/c65fa04666775060532e28076a0b4af50f8dd30b))
+* check response for rate limiting ([#58](https://www.github.com/jef/nvidia-snatcher/issues/58)) ([#98](https://www.github.com/jef/nvidia-snatcher/issues/98)) ([b7d9462](https://www.github.com/jef/nvidia-snatcher/commit/b7d9462e794ef3961fb57c79ef8f66e77d25d20a))
+
 ## [1.4.0](https://www.github.com/jef/nvidia-snatcher/compare/v1.3.0...v1.4.0) (2020-09-19)
 
 
